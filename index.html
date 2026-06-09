@@ -54,7 +54,7 @@
         <i class="fa-solid fa-folder-open"></i>
         <div>
             <h2>3+</h2>
-            <p>Academic Projects</p>
+            <p>Academic Projects </p>
         </div>
     </div>
 
@@ -146,7 +146,7 @@
 
         </div>
 
-        <a href="./vamsi_resume.pdf" target="_blank" class="about-btn">
+        <a href="vamsi_resume.pdf" download class="about-btn">
             <i class="fa-solid fa-file-arrow-down"></i>
             <span>Download Resume</span>
         </a>
@@ -388,13 +388,16 @@
 
         </div>
 
-        <form class="contact-form">
+        <form class="contact-form" action="https://formsubmit.co/nagavamsi901@gmail.com"
+      method="POST">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" value="New Portfolio Contact">
 
-            <input type="text" placeholder="Your Name" required>
+            <input type="text" name="name" placeholder="Your Name" required>
 
-            <input type="email" placeholder="Your Email" required>
+            <input type="email" name="email" placeholder="Your Email" required>
 
-            <textarea rows="6" placeholder="Your Message"></textarea>
+            <textarea rows="6" name="message" placeholder="Your Message"></textarea>
 
             <button type="submit">
                 Send Message
