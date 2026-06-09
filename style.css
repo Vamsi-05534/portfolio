@@ -676,7 +676,7 @@ body{
     .hero-image{
         position:absolute;
         right:-20px;
-        bottom:15%;
+        bottom:25%;
         z-index:1;
     }
 
