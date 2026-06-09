@@ -642,8 +642,8 @@ body{
         min-height:auto;
         padding:0 20px;
         position:relative;
-        overflow:hidden;
-        margin-top:10%
+        overflow: visible;
+        margin-top: 10%;
     }
 
     .hero-content{
@@ -651,6 +651,7 @@ body{
         position:relative;
         z-index:10;
         margin-left: 0%;
+        top: 20px;
 
     }
 
@@ -678,7 +679,7 @@ body{
     .hero-image{
         position:absolute;
         right:-20px;
-        bottom: 0;
+        bottom: -15%;
 
         z-index:1;
     }
@@ -699,6 +700,7 @@ body{
         gap: 25px;
         padding: 20px;
         margin-top: 0;
+        top: 40px;
     }
 
     .stat-item{
