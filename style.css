@@ -661,7 +661,7 @@ body{
     }
 
     .hero-content p{
-        width:65%;
+        width:80%;
         font-size:1rem;
         line-height:1.8;
     }
@@ -686,7 +686,7 @@ body{
     }
 
     .contact-btn{
-        width:200px;
+        width:180px;
     }
 
     /* Stats */
